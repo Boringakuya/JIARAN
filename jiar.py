@@ -2,12 +2,7 @@ from PIL import Image
 import requests
 import os
 import re
-from hoshino import aiorequests,R
-from asyncio import sleep
-from datetime import datetime,timedelta
 from hoshino import R, Service
-from hoshino.typing import CQEvent, MessageSegment
-from hoshino.util import FreqLimiter, DailyNumberLimiter
 sv = Service('jiaran', enable_on_default=True, visible=False)
 path='D:/jqr2/Leize_bot-master/hoshino/modules/jiaran/tupian/'#图片素材位置
 path1=path+'g.png'#头像存放位置
