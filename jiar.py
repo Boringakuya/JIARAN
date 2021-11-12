@@ -4,7 +4,7 @@ import os
 import re
 from hoshino import R, Service
 sv = Service('jiaran', enable_on_default=True, visible=False)
-path='D:/jqr2/Leize_bot-master/hoshino/modules/jiaran/tupian/'#图片素材位置
+path=os.path.join(os.path.dirname(__file__), "tupian/")#图片素材位置
 path1=path+'g.png'#头像存放位置
 path2=path+'1.png'#头像变原后存放位置
 path3=path+'shou.png'
